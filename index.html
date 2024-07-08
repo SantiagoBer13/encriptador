@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main class="main-container">
+        <div class="form-container container-left">
+            <div class="title-container">
+                <h1>Encriptador de Texto</h1>
+            </div>
+            <div class="form-wrapper">
+                <form class="text-form">
+                    <input type="text" name="text" id="text" placeholder="Ingrese el texto aquí" class="text-input">
+                    <div class="info-container">
+                        <img src="assets/info-circle.svg" alt="información" class="info-image">
+                        <p class="info-text">Solo letras minúsculas y sin acentos</p>
+                    </div>
+                    <div class="button-container">
+                        <input type="button" value="Encriptar" id="encriptar" class="button-encrypt">
+                        <input type="button" value="Desencriptar" id="desencriptar" class="button-decrypt">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="message-container container-right" id="container_right">
+            
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Santiago Bernal Tinjacá - 2024</p>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
